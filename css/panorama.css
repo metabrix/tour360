@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.main-tour {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 8vh;
+    padding: 1vh 0vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vh;
+    text-align: center;
+
+    background-color: rgb(222 219 219);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#panorama {
+    width: 100%;
+    height: 92vh;
+}
